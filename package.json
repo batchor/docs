@@ -1,0 +1,32 @@
+{
+    "name": "docs",
+    "version": "1.0.0",
+    "description": "ScienHub docs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/scienhub/docs.git"
+    },
+    "keywords": [
+        "Documentation"
+    ],
+    "author": "ScienHub",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/scienhub/docs/issues"
+    },
+    "homepage": "https://gitlab.com/scienhub/docs#readme",
+    "dependencies": {
+        "next": "^14.2.15",
+        "nextra": "^3.0.8",
+        "nextra-theme-docs": "^3.0.8",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    }
+}
